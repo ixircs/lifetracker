@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg:#0a0a0c; --surface:#141418; --surface2:#1c1c22; --border:#26262d;
+  --text:#edeef2; --muted:#83838f; --silver:#c6cad6; --silver-dim:#9a9eac;
+  --display:'Bricolage Grotesque',sans-serif; --body:'Manrope',sans-serif; --mono:'JetBrains Mono',monospace;
+}
+* { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+html, body, #root { height:100%; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:var(--body); }
+::-webkit-scrollbar { width:0; height:0; }
+button { font-family:inherit; cursor:pointer; border:none; background:none; color:inherit; }
+input { font-family:inherit; }
+@keyframes fadeUp { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
